@@ -1,0 +1,47 @@
+JOOBHUB
+----------
+
+-> Documentaion
+	
+	-> String boot - 3.0.6
+		-> spring web
+		-> data jpa
+		-> lombok
+		-> mysql driver
+		-> devtools
+		-> swagger 
+
+-> Requerment - 1
+	-> a job crud operation
+	-> jobId
+	-> jobTitle
+	-> jobDiscription
+	-> jobCompany
+	-> jobExperinece
+	-> jobEducation
+	-> jobSalary
+	-> jobLocation
+	-> jobWorkMode
+	-> jobSwift
+	-> createdAt
+	-> updatedAt
+	-> createdBy
+	-> updatedBy
+	
+-> steps
+	-> Create Required Entity Class
+	-> configure data base in application.yml file
+	-> create a reposetory interface which implements jpaRepository
+	-> create a service interface and a service class
+	-> swagger 
+		-> <dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.0.2</version>
+		   </dependency>
+
+-> Deploying to huruku
+	-> download and instal huruku cli	
+		-> $ heroku login
+		-> 
+		
