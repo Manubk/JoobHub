@@ -1,5 +1,7 @@
 JOOBHUB
 ----------
+-> API documentaion Ui
+	http://18.217.61.24:9000/swagger-ui/index.html
 
 -> Documentaion
 	
@@ -40,8 +42,8 @@ JOOBHUB
 			<version>2.0.2</version>
 		   </dependency>
 
--> Deploying to huruku
-	-> download and instal huruku cli	
-		-> $ heroku login
-		-> 
+-> Deploying to AWS 
+	-> create a Database in AWS RDB
+		-> configure the credentials in properties file
+	-> 
 		
